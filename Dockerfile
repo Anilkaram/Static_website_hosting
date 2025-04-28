@@ -1,6 +1,6 @@
-FROM nginx
+FROM httpd
 
-COPY . /usr/share/nginx/html/
+COPY . /usr/local/apache2/htdocs/
 
 EXPOSE 80
 
